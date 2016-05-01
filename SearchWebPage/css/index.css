@@ -1,3 +1,8 @@
+body{
+    /*background: url("../image/bg.jpg");*/
+    background-size: cover;
+}
+
 #header {
     text-align: right;
 }
@@ -24,10 +29,11 @@
 }
 #content {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 300px;
 }
 #content img {
+
     width: 500px;
     height: 200px;
 }
@@ -60,6 +66,13 @@
 
 #footer .footer-header {
     margin-bottom: 10px;
+
+}
+
+#footer .footer-header a{
+    color: #00c;
+    margin: 0px 5px;
+
 }
 
 
