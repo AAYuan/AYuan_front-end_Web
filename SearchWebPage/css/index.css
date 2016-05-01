@@ -1,0 +1,71 @@
+#header {
+    text-align: right;
+}
+#header a {
+    color: #333;
+    font-size: 13px;
+    font-family: "arial";
+    margin: 10px;
+    font-weight: bolder;
+}
+#header a.no-weight {
+    font-weight: normal;
+}
+#header a.more-product {
+    background-color: #3385ff;
+    border: 1px solid #2d78f4;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+#content {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 300px;
+}
+#content img {
+    width: 500px;
+    height: 200px;
+}
+#content input {
+    width: 500px;
+    height: 22px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+#content input:focus {
+    border-color: #2d78f4;
+}
+#content a {
+
+    background-color: #3385ff;
+    border: 1px solid #2d78f4;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer .footer-header {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
