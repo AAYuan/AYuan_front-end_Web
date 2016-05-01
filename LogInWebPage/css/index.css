@@ -1,0 +1,79 @@
+body{
+    background-color: #F2F2F2;
+}
+
+#content {
+    margin-top: 100px;
+    /*background-color: white;*/
+    text-align: center;
+}
+
+#content .panel{
+    background-color: white;
+    /*块级面板居中*/
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+#content .panel .group{
+    display: inline-block;
+
+}
+
+#content .panel .group input{
+    display: block;
+    width: 250px;
+    height: 33px;
+    padding-left: 6px;
+    font-size: 15px;
+}
+
+/*伪类*/
+#content .panel .group input:focus{
+    outline: none;
+    border:1px solid #CC865E;
+}
+
+#content .panel .group label{
+    display: block;
+    text-align: left;
+    height: 30px;
+    font-size: 20px;
+}
+
+#content .login {
+    margin-top: 20px;
+}
+
+#content button {
+    height: 33px;
+    border: 0px;
+    color: white;
+    font-size: 22px;
+}
+/*登录*/
+#content .login button{
+    width: 250px;
+    background-color: #cc865E;
+}
+#content .login button:hover{
+    background-color: white;
+    color: #cc865E;
+    border: 1px solid #cc865E;
+    cursor: pointer;
+}
+/*注册*/
+#content .register button{
+    margin-top: 10px;
+    width: 200px;
+    background-color: #466BAF;
+
+}
+#content .register button:hover{
+    background-color: white;
+    color: #466BAF;
+    border: 1px solid #466BAF;
+}
