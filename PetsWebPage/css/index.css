@@ -1,0 +1,143 @@
+/*使用外部字体*/
+@font-face {
+    font-family: BebasNeue-webfont;
+    src: url("../fonts/BebasNeue-webfont.ttf");
+}
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: url("../img/pattern.gif");
+    font-family: "BebasNeue-webfont";
+}
+
+#header{
+    background-color: red;
+    height: 3px;
+}
+
+#nav{
+    text-align: center;
+}
+
+#nav ul{
+    display: inline-block;
+}
+
+#nav ul li{
+    float: left;
+}
+
+#nav ul li a{
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#nav ul li a:hover{
+    background: white;
+    color: black;
+}
+
+#nav ul li a.select{
+    background: white;
+    color: black;
+}
+
+#list{
+    background: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#list .dom{
+    width: 382px;
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+#list .dom p{
+    color: #999;
+    font-family: "sans-serif";
+    margin-bottom: 5px;
+}
+
+#list .dom a{
+    background: #C0392B;
+    color: white;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#list .dom a:hover{
+    background:rgb(11,17,15);
+}
+
+#footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#footer h2{
+    color: white;
+    margin: 8px 0px;
+    font-size: 30px;
+}
+
+#footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#footer ul li:hover{
+    /*不透明度 0-1*/
+    opacity: 0.6;
+}
+
+/*响应式设计,监听屏幕的变化,当宽度和高度产生变化的时候,在这里面重写样式*/
+@media screen and (max-width:1153px){
+    #nav ul li a{
+        width: 150px;
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width:873px){
+    #nav ul li a{
+        width: 100px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:688px){
+    #nav ul li a{
+        width: 80px;
+        font-size: 20px;
+    }
+}
+
+
